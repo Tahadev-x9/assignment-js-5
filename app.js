@@ -488,16 +488,16 @@
 // ANS6
 
 
-let students = [
-    {name:"Ali", marks:90},
-    {name:"Ahmed", marks:70},
-    {name:"Hassan", marks:40}
-];
-let highest = students.reduce((acc,curr)=>{
-    return curr.marks > acc.marks ? curr : acc;
-});
+// let students = [
+//     {name:"Ali", marks:90},
+//     {name:"Ahmed", marks:70},
+//     {name:"Hassan", marks:40}
+// ];
+// let highest = students.reduce((acc,curr)=>{
+//     return curr.marks > acc.marks ? curr : acc;
+// });
 
-console.log(highest);                   // output {name:"Ali", marks:90}  student with the highest marks in the array of objects 
+// console.log(highest);                   // output {name:"Ali", marks:90}  student with the highest marks in the array of objects 
 
 
 
@@ -555,3 +555,5 @@ console.log(highest);                   // output {name:"Ali", marks:90}  studen
 
 
 // assignment 5 js completed 
+
+//  late submitted
