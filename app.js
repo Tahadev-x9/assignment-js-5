@@ -502,16 +502,16 @@ console.log(highest);                   // output {name:"Ali", marks:90}  studen
 
 
 // ANS6
-let products = [
-    {name:"Pen", stock:10},
-    {name:"Book", stock:20}
-];
+// let products = [
+//     {name:"Pen", stock:10},
+//     {name:"Book", stock:20}
+// ];
 
-let total = products.reduce((acc,curr)=>{
-    return acc + curr.stock;
-},0);
+// let total = products.reduce((acc,curr)=>{
+//     return acc + curr.stock;
+// },0);
 
-console.log(total);                       // output 30   total stock of all products
+// console.log(total);                       // output 30   total stock of all products
 
 // ANS7
 // let students = [
@@ -529,14 +529,14 @@ console.log(total);                       // output 30   total stock of all prod
 // ANS8
 
 
-let users = [
-    {id:1,name:"Ali"},
-    {id:2,name:"Ahmed"}
-];
-let result = users.find(function(user){
-    return user.id === 2;
-});
-console.log(result);                       // output {id:2,name:"Ahmed"}  find user with id 2 in the array of object
+// let users = [
+//     {id:1,name:"Ali"},
+//     {id:2,name:"Ahmed"}
+// ];
+// let result = users.find(function(user){
+//     return user.id === 2;
+// });
+// console.log(result);                       // output {id:2,name:"Ahmed"}  find user with id 2 in the array of object
 
 // ANS9
 // let students = [
@@ -550,3 +550,8 @@ console.log(result);                       // output {id:2,name:"Ahmed"}  find u
 //     console.log(student.name);
 //     console.log(student.age);
 // });                                              // output Ali  print the name of each student in the array of objects
+
+
+
+
+// assignment 5 js completed 
